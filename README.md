@@ -11,4 +11,7 @@ while guess!=random_number:
         if chances==0:
             print("You Loss the Game!")
             break
-       
+         print("Guess is High!")
+        print("You Have",chances,"Chances")
+        guess=int(input("Guess the Number:"))
+
